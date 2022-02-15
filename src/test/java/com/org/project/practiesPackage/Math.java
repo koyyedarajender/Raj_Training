@@ -1,4 +1,6 @@
-public class sample {
+package com.org.project.practiesPackage;
+
+public class Math {
     public static void main(String[] args) {
         int myNum = 5;               // integer (whole number)
         float myFloatNum = 5.99f;    // floating point number
