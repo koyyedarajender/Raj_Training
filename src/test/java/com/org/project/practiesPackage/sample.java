@@ -1,3 +1,5 @@
+package com.org.project.practiesPackage;
+
 public class sample {
     public static void main(String[] args) {
         int myNum = 5;               // integer (whole number)
