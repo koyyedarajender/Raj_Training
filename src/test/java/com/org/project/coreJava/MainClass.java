@@ -11,5 +11,6 @@ public class MainClass {
         sUbClassTriangle.c=10;
         sUbClassTriangle.method1();
         sUbClassTriangle.method2();
+
     }
 }
