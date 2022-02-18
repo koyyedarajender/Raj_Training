@@ -30,7 +30,7 @@ public class ArraysExample {
 
 
 
-        int[][] raj={{1,2,3},{4,5,6}};  //2*3
+        /*int[][] raj={{1,2,3},{4,5,6}};  //2*3
         for(int i=0;i<raj.length;i++){
 
             for(int j=0;j<3;j++){
@@ -39,7 +39,19 @@ public class ArraysExample {
 
             }
 
-        }
+        }*/
+
+        //copy array and clone array
+
+        char[] source={'r','a','j','e','n','d','e','r'};
+        System.out.println("source array elements: "+String.valueOf(source));
+        char[] raj=new char[5];
+        System.arraycopy(source,0,raj,0,5);
+        System.out.println("destination array elements: "+String.valueOf(raj));
+
+        char a[]=source.clone();
+        System.out.println("cloned a array elements: "+String.valueOf(a));
+
 
     }
 
