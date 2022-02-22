@@ -2,7 +2,7 @@ package com.org.project.practiesPackage;
 
 public class sample {
     public static void main(String[] args) {
-        int myNum = 5;               // integer (whole number)
+       /* int myNum = 5;               // integer (whole number)
         float myFloatNum = 5.99f;    // floating point number
         char myLetter = 'D';         // character
         boolean myBool = true;       // boolean
@@ -12,6 +12,12 @@ public class sample {
         System.out.println(myFloatNum);
         System.out.println(myLetter);
         System.out.println(myBool);
-        System.out.println(myText);
+        System.out.println(myText);*/
+
+        //given number is prime or not
+
+
+
+
     }
 }
