@@ -7,11 +7,12 @@ public class ThisKeyWordExample {
 
     //constructor
 
-    ThisKeyWordExample(){
+    ThisKeyWordExample(){  //2nd
         this(5);
-    System.out.println("hello a");}
-    ThisKeyWordExample(int x){
-      //  this();
+    System.out.println("hello a");
+    }
+    ThisKeyWordExample(int x){  ///1st
+      // this();
         System.out.println(x);
     }
 
@@ -28,7 +29,9 @@ public class ThisKeyWordExample {
     void display(){System.out.println(rollno+" "+name+" "+fee);}
 
 //methods
-    void m(){System.out.println("hello m");}
+    void m(){
+        System.out.println("hello m");
+    }
     void n(){
         System.out.println("hello n");
 //m();//same as this.m()
@@ -37,16 +40,20 @@ public class ThisKeyWordExample {
 
 
 }
+
+
+
 class TestThis2{
     public static void main(String args[]){
 
 
-        ThisKeyWordExample s3=new ThisKeyWordExample(4);  //cons
+        ThisKeyWordExample s3=new ThisKeyWordExample();  //cons
 
         ThisKeyWordExample s1=new ThisKeyWordExample(111,"ankit",5000f);   //var
         ThisKeyWordExample s2=new ThisKeyWordExample(112,"sumit",6000f);  //var
         s1.display();
         s2.display();
+
 
         s1.n();  //methods
     }}

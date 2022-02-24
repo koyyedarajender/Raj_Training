@@ -6,10 +6,10 @@ package com.org.project.coreJava;
 class Student{
     int rollno;//instance variable
     String name;
-    static String college ="ITS";//static variable
+    static String college ="XYZ";//static variable
 
     static void change(){
-        college = "BBDIT";
+        college = "ABC";
     }
 
     //constructor
